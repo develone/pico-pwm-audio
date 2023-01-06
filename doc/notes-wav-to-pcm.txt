@@ -1,3 +1,7 @@
+git clone https://github.com/develone/pico-pwm-audio.git
+
+git clone git@github.com:develone/pico-pwm-audio.git
+
 mkdir wavtopcm
 cd wavtopcm
 
@@ -17,8 +21,10 @@ pip install nbformat
 
 pip install matplotlib
 
-cp /home/devel/Ultibo_Projects/sd-card/md2/q2mdl-droideka/droideka/pain50_1.wav wavtopcm/sample.wav
+cp ~/pico-pwm-audio/doc/sample.wav .
 
+cp ~/pico-pwm-audio/Raspberry\ Pi\ Pico\ PWM\ Wave\ File\ Converter.ipynb .
+ 
 ipython3 Raspberry\ Pi\ Pico\ PWM\ Wave\ File\ Converter.ipynb
 
 [ 0.00039652 -0.00101176  0.00091903 ... -0.0023242  -0.00139625
