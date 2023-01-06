@@ -11,6 +11,11 @@ pip install soundfile
 
 pip install samplerate
 
+pip install ipython
+
+pip install nbformat
+
+pip install matplotlib
 
 cp /home/devel/Ultibo_Projects/sd-card/md2/q2mdl-droideka/droideka/pain50_1.wav wavtopcm/sample.wav
 
